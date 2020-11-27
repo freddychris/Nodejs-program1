@@ -18,3 +18,15 @@ exports.show_leads = function(req, res, next) {
   })
   
 }
+
+/*exports.show_leads = function(req, res, next) {
+  console.log('req is', req.params);
+ return models.Lead.findOne({
+   where: {
+     id : req.params.lead_id
+   }
+ }).then (lead =>{
+   res.render('lead',{lead:lead});
+ });
+}*/
+
