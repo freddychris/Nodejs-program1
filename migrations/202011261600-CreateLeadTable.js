@@ -18,7 +18,7 @@ module.exports={
         },
         email: {
             allownNull: false,
-            type: Sequelize.DATE
+            type: Sequelize.STRING
         },
     });
     },
