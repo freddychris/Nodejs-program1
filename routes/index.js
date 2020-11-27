@@ -4,5 +4,5 @@ let landing= require('../controllers/landing')
 
 
 router.get('/',landing.get_landing); 
-
+router.post('/',landing.submit_lead); 
 module.exports = router;

@@ -7,8 +7,8 @@
 var app = require('../app');
 var debug = require('debug')('myapp:server');
 var http = require('http');
-let Module = require('../models');
-const { Model } = require('sequelize/types');
+let models = require('../models');
+
 
 /**
  * Get port from environment and store in Express.

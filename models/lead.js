@@ -10,7 +10,7 @@ module.exports =(sequelize,DataTypes) => {
            primaryKey: true
         },
         email: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
             allowNull: false,
         },
     });
