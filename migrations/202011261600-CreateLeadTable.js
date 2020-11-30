@@ -9,11 +9,11 @@ module.exports={
             defaultValue: Sequelize.UUIDV4, 
         },
         createdAt: {
-            allownNull: false,
+            allowNull: false,
             type: Sequelize.DATE
         }, 
         updatedAt: {
-            allownNull: false,
+            allowNull: false,
             type: Sequelize.DATE
         },
         email: {
